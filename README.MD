@@ -2,9 +2,16 @@
 
 
 ## Up and running
+1. Compile the code
 ```bash
 ./mvnw clean package
+```
+2. Build the new image from project that u compiled just
+```bash
 docker build -t docklearn .
+```
+3. Start and run multi-container Docker apps
+```bash
 docker compose up -d
 ```
 
