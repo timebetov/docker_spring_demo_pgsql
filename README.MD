@@ -19,7 +19,7 @@ docker compose up -d
 Open the postman and test routes:
 * `POST //` localhost:8088/api/v1/demo
 * `GET  //` localhost:8088/api/v1/demo
-* `GET  //` localhost:8080/api/v1/demo/{idEntity}
+* `GET  //` localhost:8088/api/v1/demo/{idEntity}
 
 ## POSTMAN Testing
 * POST Method
