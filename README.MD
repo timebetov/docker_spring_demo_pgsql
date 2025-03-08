@@ -3,6 +3,7 @@
 
 ## Up and running
 ```bash
+./mvnw clean package
 docker build -t docklearn .
 docker compose up -d
 ```
